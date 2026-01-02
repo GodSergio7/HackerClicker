@@ -1,16 +1,38 @@
-# React + Vite
+# 👨‍💻 Hacker Clicker - React Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Un juego incremental (Clicker Game) desarrollado con React puro para entender la gestión de estado, hooks y persistencia de datos.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 ¿De qué va el proyecto?
+El objetivo es convertirse en el mejor desarrollador del mundo. Empiezas picando código línea a línea y acabas comprando servidores y contratando equipos.
 
-## React Compiler
+Este proyecto demuestra el dominio de:
+- **useState:** Para gestionar recursos (líneas de código, dinero).
+- **useEffect:** Para el motor del juego (loops automáticos) y persistencia.
+- **useContext:** Para compartir el estado del juego entre componentes.
+- **LocalStorage:** Para guardar el progreso del usuario automáticamente.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## ✨ Funcionalidades (Roadmap)
+- [ ] **Clicker Manual:** Escribir código manualmente.
+- [ ] **Tienda de Mejoras:**
+    - ☕ **Café:** Aumenta la velocidad de escritura.
+    - ⌨️ **Teclado Mecánico:** Multiplica los clicks manuales.
+- [ ] **Auto-Devs (Ingresos Pasivos):**
+    - 👶 **Contratar Becario:** Genera código automáticamente cada segundo.
+    - 🤖 **Bot de IA:** Genera masivamente.
+- [ ] **Persistencia:** Guardado automático para no perder el progreso.
 
-## Expanding the ESLint configuration
+## 🚀 Cómo arrancar el proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# 1. Clonar el repositorio
+git clone [https://github.com/TU_USUARIO/hacker-clicker.git](https://github.com/TU_USUARIO/hacker-clicker.git)
+
+# 2. Instalar dependencias
+npm install
+
+# 3. Arrancar el servidor de desarrollo
+npm run dev
