@@ -36,3 +36,5 @@ npm install
 
 # 3. Arrancar el servidor de desarrollo
 npm run dev
+
+Hecho con ⌨️ y ☕ por Sergio Vidal Moreno
